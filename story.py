@@ -15,6 +15,11 @@ def left_path():
 
 def right_path():
     print("You walk right and encounter a talking squirrel who challenges you to a duel.")
+    print("You take out a magic wand and shoot that thang")
+    print("The squirrel perishes, leaving behind a note that says ('stay safe on your adventures, dad)")
+
+def center_path():
+    print("you walk the center way and meet a friend named Numair")
 
 def center_path():
     print("you walk the center way and meet a friend named Numair")
