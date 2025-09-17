@@ -1,6 +1,6 @@
 def intro():
     print("You wake up in a dark forest. You can go left, center or right.")
-    choice = input("Which direction do you choose? (left/centers/right): ").strip().lower()
+    choice = input("Which direction do you choose? (left/center/right): ").strip().lower()
     if choice == "left":
         left_path()
     elif choice == "right":
