@@ -15,7 +15,7 @@ You will:
 ## Branch Summaries
 
 - `main`: Original story starter
-- `hero-path`: _[Describe your changes here]_
+- `hero-path`: added print statements for when user took left path.
 - `villain-path`: _[Describe your changes here]_
 
 ## Final Checklist
