@@ -1,10 +1,12 @@
 def intro():
-    print("You wake up in a dark forest. You can go left or right.")
-    choice = input("Which direction do you choose? (left/right): ").strip().lower()
+    print("You wake up in a dark forest. You can go left, center or right.")
+    choice = input("Which direction do you choose? (left/center/right): ").strip().lower()
     if choice == "left":
         left_path()
     elif choice == "right":
         right_path()
+    elif choice == "center":
+        center_path()
     else:
         print("You stand still, unsure what to do. The forest swallows you.")
 
@@ -13,6 +15,9 @@ def left_path():
 
 def right_path():
     print("You walk right and encounter a talking squirrel who challenges you to a duel.")
+
+def center_path():
+    print("you walk the center way and meet a friend named Numair")
 
 if __name__ == "__main__":
     intro()
